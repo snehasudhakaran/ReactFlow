@@ -1,0 +1,119 @@
+.header {
+  background-color: #ccc;
+}
+
+.save-button {
+  padding: 5px 25px;
+  background-color: white;
+  color: darkblue;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.save-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.main-section {
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.flowbuilder-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  /* padding: 20px; */
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+
+.message {
+  width: fit-content;
+  color: darkblue;
+  cursor: pointer;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+}
+
+.message .icon {
+  font-size: 22px;
+}
+
+.message .message-text {
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.settings-message {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.settings-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: grey
+}
+
+.whatsapp svg:nth-child(2) {
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.react-flow__node {
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.react-flow__node:focus {
+  border: 1px solid darkblue;
+}
+
+.updatemessage textarea {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.updatemessage textarea:focus {
+  outline: none;
+}
+
+.updatemessage .updatingElement {
+  gap: 120px;
+}
+
+.whatsapp {
+  background-color: rgba(17, 204, 173, 0.4) !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0px 10px;
+}
+
+.whatsapp .sendingmsg span {
+  font-size: 10px;
+  font-weight: 550;
+}
+
+.alert {
+  position: fixed !important;
+  top: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 1050;
+  width: auto;
+  max-width: 300px;
+}

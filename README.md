@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# Getting Started with Create React App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#FLOW BUILDER APP
+
+Live link: https://chatbot-flow-builder-2285f.web.app/
+Github Link: https://github.com/snehasudhakaran/ReactFlow
+
+Overview
+
+This project is a Flow Builder application built with React. It allows users to create and customize flow diagrams with nodes and edges.
+
+Features
+
+- Node Management: Users can add, remove, and customize nodes in the flow diagram.
+- Edge Connections: Nodes can be connected with edges to represent relationships or dependencies.
+- Node Settings: Users can modify settings and properties of individual nodes.
+- Flow Saving: Users can save their flow diagrams, and the application will persist the data locally.
+- Alert System: An alert system notifies users about important events or errors.
+
+Usage
+
+- Start the development server:
+  npm start
+- Open your browser and visit http://localhost:3000 to view the application.
+
+Project Structure
+
+- src/components: Contains React components used to build the application.
+- src/context: Contains Context API files for managing global state.
+- src/home.css: Contains CSS styles for the application.
+- src/App.js: Entry point of the application.
+- public/index.html: HTML template for the application.
+
+Dependencies
+
+- React
+- React Flow
+- React Icons
+- React Flow Renderer
 
 ## Available Scripts
 
